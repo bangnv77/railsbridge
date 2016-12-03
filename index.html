@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome</title>
+  </head>
+  <body>
+    def my_opinion(languages)
+      languages.each do |language|
+        if language == "Ruby"
+          puts language + " is my favorite."
+        else
+          puts "I enjoy learning " + language + " too."
+        end
+      end
+    end
+
+    my_opinion(["JavaScript", "Python", "PHP", "Ruby"])
+
+    def my_opinion(cities)
+      cities.each do |city|
+        if city == "Atlanta"
+          puts city + " is my favorite place."
+        elsif city == "New York"
+          puts "I don't like living in such a big city like " + city
+        else
+          puts "I prefer living in " + city
+        end
+      end
+
+    end
+
+    my_opinion(["Atlanta", "New York", "Philly", "Portland"])
+  </body>
+</html>
